@@ -1,10 +1,16 @@
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { MapPin, Phone, Mail, Clock } from "lucide-react";
-import config from '@/lib/config';
+import config from "@/lib/config";
 
 export default function Contact() {
   return (
@@ -62,10 +68,14 @@ export default function Contact() {
                         <SelectValue placeholder="Select a service" />
                       </SelectTrigger>
                       <SelectContent>
-                        <SelectItem value="tax-planning">Tax Planning</SelectItem>
+                        <SelectItem value="tax-planning">
+                          Tax Planning
+                        </SelectItem>
                         <SelectItem value="bookkeeping">Bookkeeping</SelectItem>
                         <SelectItem value="auditing">Auditing</SelectItem>
-                        <SelectItem value="consulting">Business Consulting</SelectItem>
+                        <SelectItem value="consulting">
+                          Business Consulting
+                        </SelectItem>
                       </SelectContent>
                     </Select>
                   </div>
